@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin:0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5eef2;
+  color: #1A120B;
+}
+ 
+/* utility class */
+
+.center{
+  text-align: center; 
+}
+
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h1{
+  padding:14px 0px;
+  background-color: #de7a94;
+  background-color: #c2185b;
+  
+}
+
+h2{
+  text-align: center;
+}
+
+/* --------------- body ----------------------- */
+
+
+
+/* container */
+
+.container{
+  padding: 25px;
+  margin-top: 15px;
+}
+
+.form{
+  padding:30px;
+  position: relative;
+  border: 2px dashed black;
+}
+
+#Registration_Form{
+  padding:0px 52px;
+}
+
+.detail{
+  margin: 30px 0px;
+}
+
+.detail label{
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 30px;
+}
+
+.detail input::placeholder{
+  color: #575753;
+}
+
+.flex2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-right: 7px; */
+}
+
+.space input{
+  position: absolute;
+  right: 25px;
+  width: 280px;
+}
+
+.space label{
+  margin-right: 333px;
+}
+
+.space input{
+  padding: 4px 27px;
+  border-radius: 5px;
+  border: 2px solid black;
+  background: transparent;
+}
+
+.language input{
+  margin-right: 7px;
+}
+
+/* button */
+
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin : 0px 8px;
+}
+
+
+.hov{
+  padding:7px 55px;
+  padding:7.5px 75px;
+  margin : 10px 30px;
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: #FDCEDF;
+  color: black;
+  font-weight: 500;
+}
+
+.hov:hover{
+  color: black;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: #f3679a;
+}
+
+/* output */
+ 
+.output{
+  border: 2px dashed black;
+  padding: 30px 152px;
+}
+
+.output .cardContainer {
+  height: 90%;
+  /* overflow-y: auto; */
+}
+
+.output .card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  margin: 0.3rem 0;
+  word-wrap: break-word;
+  line-break: strict;
+}
+
+.card img {
+  margin-top:2.5rem;
+  margin-right: 2.9rem;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.card .info {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.info p{
+  margin-bottom: 0.6rem;
+}
+
+.card .info button {
+  padding:4px 28px;
+  margin : 5px 0px;
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: #FDCEDF;
+  color: black;
+  font-weight: 500;
+}
+.card .info button:hover{
+  color: black;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: #f3679a;
+}
+
